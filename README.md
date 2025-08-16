@@ -1,18 +1,17 @@
-## Getting Started
+# AVL Tree Dictionary – ICS202 Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+##  Overview
+This project implements a **Dictionary Application** using an **AVL Tree** data structure in Java.  
+The program allows users to load a dictionary from a file, search for words, add or delete words, find similar words, and save the dictionary back to a text file.  
 
-## Folder Structure
+##  Features
+- **findWord(String s):** Searches the dictionary for a specific word.  
+- **addWord(String s):** Adds a new word to the dictionary.  
+- **deleteWord(String s):** Deletes a word from the dictionary.  
+- **findSimilar(String s):** Finds words that are similar to the given input word.  
+- **saveDict(String dictName):** Saves the dictionary content to a `.txt` file.  
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 📂 Project Structure
+- `src/` → Java source files (AVL Tree implementation and dictionary methods).  
+- `mydictionary.txt` → Example dictionary input file.  
+- `newDictionary.txt` → Example dictionary output file after modifications.  
